@@ -1,3 +1,6 @@
-fn main() {
-    println!("Hello, world!");
+use std::u32;
+
+
+fn main() -> () {
+    
 }
