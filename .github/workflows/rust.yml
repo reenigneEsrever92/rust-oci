@@ -16,8 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - run: cargo install cargo-test-junit
     - name: Build
-      run: cargo build --verbose && cargo install cargo-test-junit
+      run: cargo build
     - name: Run tests
       run: cargo test-junit --name target/junit.xml
     - name: Publish Unit Test Results
