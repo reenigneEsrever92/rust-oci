@@ -3,6 +3,3 @@
 FROM mcr.microsoft.com/vscode/devcontainers/rust:0-1
 
 # [Optional] Uncomment this section to install additional packages.
-
-USER ${REMOTE_USER}
-RUN cargo install cargo-junit
