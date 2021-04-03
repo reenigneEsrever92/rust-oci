@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "rust-oci-lib",
+    "rust-oci-cmd"
+]
